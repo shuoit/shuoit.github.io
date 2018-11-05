@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="zh-CN">
+<!--
+//                            _ooOoo_
+//                           o8888888o
+//                           88" . "88
+//                           (| -_- |)
+//                            O\ = /O
+//                        ____/`---'\____
+//                      .   ' \\| |// `.
+//                       / \\||| : |||// \
+//                     / _||||| -:- |||||- \
+//                       | | \\\ - /// | |
+//                     | \_| ''\---/'' | |
+//                      \ .-\__ `-` ___/-. /
+//                   ___`. .' /--.--\ `. . __
+//                ."" '< `.___\_<|>_/___.' >'"".
+//               | | : `- \`.;`\ _ /`;.`/ - ` : | |
+//                 \ \ `-. \_ __\ /__ _/ .-` / /
+//         ======`-.____`-.___\_____/___.-`____.-'======
+//                            `=---='
+//                 拦截插件累计拦截逗比攻击"1381438"次！
+//         .............................................
+//                  佛祖保佑             永无BUG
+//          佛曰:
+//                  写字楼里写字间，写字间里程序员；
+//                  程序人员写程序，又拿程序换酒钱。
+//                  酒醒只在网上坐，酒醉还来网下眠；
+//                  酒醉酒醒日复日，网上网下年复年。
+//                  但愿老死电脑间，不愿鞠躬老板前；
+//                  奔驰宝马贵者趣，公交自行程序员。
+//                  别人笑我忒疯癫，我笑自己命太贱；
+//                  不见满街漂亮妹，哪个归得程序员？
+-->
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!--[if lte IE 9]>
+<meta http-equiv="refresh" content="0;url=https://shuoit.net/warn.html">
+<![endif]-->
+<meta charset="utf-8">
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+<meta http-equiv="mobile-agent" content="format=html5; url=https://shuoit.net">
+<meta name="author" content="唐先森(https://www.tangkunyin.com)">
+<link rel="stylesheet" href="/css/SimpleStyle.min.css">
+
+<link rel="shortcut icon" href="/images/favicon.png">
+
+
+<title>flutter和rax初探 - 说IT</title>
+
+<meta name="keywords" content="说IT，技术博客，原创IT博客">
+
+<meta name="description " content="说IT是一个面向Apple和JavaScript生态的技术博客，内容聚焦于前后端开发、产品设计等方向。作者：唐先森(@tangkunyin)，网址：https://shuoit.net。">
+
+</head>
+<body>
+<div id="nav">
+    <nav class="nav-menu">
+        <a class="site-name current" href="/" title="说">说</a>
+        <a class="site-index current" href="/"><i class="fa fa-home"></i><span>首页</span></a>
+        <a href="/archives" title="归档"><i class="fa fa-archives"></i><span>归档</span></a>
+        <a href="/tags" title="标签"><i class="fa fa-tags"></i><span>标签</span></a>
+        <!-- custom single page of menus -->
+        
+        
+        <a href="/help" title="帮助">
+            <i class="fa fa-question-circle"></i>
+            <span>帮助</span>
+        </a>
+        
+    </nav>
+</div>
+
+<div class="nav-user">
+    <a class="btn-search" href="#"><i class="fa fa-search"></i></a>
+    <a class="btn-read-mode" href="#"><i class="fa fa-sun-o"></i></a>
+    <a class="btn-sns-qr" href="javascript:"><i class="fa fa-telegram"></i></a>
+</div>
+
+<div id="wrapper" class="clearfix">
+    <div id="body">
+        <div class="main" id="main">
+            <div id="cover">
+    <div class="cover-img"></div>
+    <div class="cover-info">
+        
+        <h1 class="cover-siteName">说IT</h1>
+        <h3 class="cover-siteTitle">用代码摇滚这个世界</h3>
+        <p class="cover-siteDesc">一个关注技术与人文的IT博客</p>
+        <div class="cover-sns">
+            
+            <div class="btn btn-telegram">
+                <a href="http://t.me/kunyintang" target="_blank" title="telegram" ref="friend">
+                    <i class="fa fa-telegram"></i>
+                </a>
+            </div>
+            
+            <div class="btn btn-instagram">
+                <a href="https://www.instagram.com/mtangsir/" target="_blank" title="instagram" ref="friend">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            
+            <div class="btn btn-twitter">
+                <a href="https://twitter.com/tangkunyin" target="_blank" title="twitter" ref="friend">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            
+            <div class="btn btn-github">
+                <a href="https://github.com/tangkunyin" target="_blank" title="github" ref="friend">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+            <div class="page-title">
+    <ul>
+        <li><a href="/">最新</a></li>
+        
+            
+                <li class="active">
+                    <a href="/categories/tech-notes" data-name="技术">技术</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/humanities" data-name="人文">人文</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/others" data-name="其他">其他</a>
+                </li>
+            
+        
+        <li class="page-search">
+    <form id="search" class="search-form">
+        <label for="s" class="sr-only">请输入关键字</label>
+        <input class="search-field" type="text" name="s" placeholder="请输入关键字">
+        <button type="submit" class="search-form-submit" title="搜索"><i class="fa fa-search"></i></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(无标题)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+</li>
+
+    </ul>
+</div>
+<div class="main-inner">
+    <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div class="post-header">
+            <div class="post-author clearfix">
+                <a class="avatar fleft" href="https://www.tangkunyin.com" target="_blank">
+                    <img width="48" src="/images/favicon.png" alt="avatar">
+                </a>
+                <p><span class="label">作者</span>
+                    <a href="https://about.tangkunyin.com" target="_blank">唐先森</a>
+                    <span title="最后编辑于2018-07-09">2018-07-09</span>
+                </p>
+                <p>一个写代码的「伪文人」</p>
+            </div>
+            <h2 class="post-title">Flutter和Rax初探</h2>
+            <div class="post-meta">
+                本文总共1617个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+            </div>
+        </div>
+        <div class="post-content markdown-body">
+            <h2 id="Flutter篇"><a href="#Flutter篇" class="headerlink" title="Flutter篇"></a>Flutter篇</h2><h3 id="环境安装（macOS）"><a href="#环境安装（macOS）" class="headerlink" title="环境安装（macOS）"></a>环境安装（macOS）</h3><h4 id="参考Flutter中文网的教程：https-flutterchina-club-setup-macos"><a href="#参考Flutter中文网的教程：https-flutterchina-club-setup-macos" class="headerlink" title="参考Flutter中文网的教程：https://flutterchina.club/setup-macos/"></a>参考<code>Flutter</code>中文网的教程：<a href="https://flutterchina.club/setup-macos/">https://flutterchina.club/setup-macos/</a></h4><p>以上流程基本上是一把梭的就装好了，唯一需要注意的是<strong>PUB_HOSTED_URL</strong>和<strong>FLUTTER_STORAGE_BASE_URL</strong>这俩得写进环境变量配置里，如下：</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1，我直接加到了系统环境变量中，需要加到自己家目录下同理</span></span><br><span class="line">vim /etc/profile</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2，复制以下配置</span></span><br><span class="line"><span class="comment"># Flutter SDK https://flutterchina.club/setup-macos/</span></span><br><span class="line"><span class="attribute">PUB_HOSTED_URL</span>=https://pub.flutter-io.cn</span><br><span class="line"><span class="attribute">FLUTTER_STORAGE_BASE_URL</span>=https://storage.flutter-io.cn</span><br><span class="line"><span class="attribute">PATH</span>=~/dev-lib/flutter/bin:$PATH</span><br><span class="line"></span><br><span class="line"><span class="builtin-name">export</span> PATH PUB_HOSTED_URL FLUTTER_STORAGE_BASE_URL</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3，使环境变量生效</span></span><br><span class="line"></span><br><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure>
+<h4 id="校验其他依赖"><a href="#校验其他依赖" class="headerlink" title="校验其他依赖"></a>校验其他依赖</h4><p>执行：<code>flutter doctor</code>，该命令检查您的环境并在终端窗口中显示报告，所以缺什么，直接复制命名继续安装即可，直到我这样就行了：</p>
+<p><img src="/img/2018/15311311861503.jpg" alt=""></p>
+<h3 id="开始撸代码，首先配置IDE（此处以VS-Code为例）"><a href="#开始撸代码，首先配置IDE（此处以VS-Code为例）" class="headerlink" title="开始撸代码，首先配置IDE（此处以VS Code为例）"></a>开始撸代码，首先配置IDE（此处以VS Code为例）</h3><h4 id="配置方式如下"><a href="#配置方式如下" class="headerlink" title="配置方式如下"></a>配置方式如下</h4><p><a href="https://flutterchina.club/get-started/editor/#vscode">Visual Studio Code (VS Code) Dart安装</a></p>
+<h4 id="启动模拟器"><a href="#启动模拟器" class="headerlink" title="启动模拟器"></a>启动模拟器</h4><p><img src="/img/2018/15311314047697.jpg" alt=""></p>
+<p>这里用iOS模拟器演示，执行：<code>flutter emulators --launch apple_ios_simulator</code>。然后模拟器就被正常启动</p>
+<h4 id="打开VS-Code并创建Demo工程，按F5后"><a href="#打开VS-Code并创建Demo工程，按F5后" class="headerlink" title="打开VS Code并创建Demo工程，按F5后"></a>打开VS Code并创建Demo工程，按F5后</h4><p><img src="/img/2018/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-07-09%20at%2018.20.54.png" alt="Simulator Screen Shot - iPhone 8 Plus - 2018-07-09 at 18.20.54"></p>
+<h3 id="至此，Flutter的Hello-World工程就跑起来了，之后需要做的就是去学习语法开始撸代码"><a href="#至此，Flutter的Hello-World工程就跑起来了，之后需要做的就是去学习语法开始撸代码" class="headerlink" title="至此，Flutter的Hello-World工程就跑起来了，之后需要做的就是去学习语法开始撸代码"></a>至此，<code>Flutter</code>的<code>Hello-World</code>工程就跑起来了，之后需要做的就是去学习语法开始撸代码</h3><h2 id="Rax篇"><a href="#Rax篇" class="headerlink" title="Rax篇"></a>Rax篇</h2><blockquote>
+<p>先来区分一下概念：Weex和Rax</p>
+<blockquote>
+<p>前者是一个容器（运行时环境），后者是一个跨容器的渲染引擎。即：Rax可以跑在Weex里，但Weex不能跑在Rax中。<br>两者是相互独立的。Weex可以简单理解为：<code>Vue-Native</code>。拿知乎段友的话概括就是：“看了一下好像是淘宝写 react-web 那几个人弄的，我猜他们是要用 weex 但是又喜欢 react 那套思想，所以整了个类 react 的东西，可以直接在 weex 里面渲染，也就是说可以用类似 react-native 的方式来写 weex 了”</p>
+</blockquote>
+</blockquote>
+<p>具体也可以看看这里：<a href="http://taobaofed.org/blog/2018/02/06/rax-native-guide/">Rax 系列教程（native 扫盲）</a></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p><a href="https://alibaba.github.io/rax/guide/getting-started">Rax快速开始</a></p>
+<figure class="highlight vala"><table><tr><td class="code"><pre><span class="line"><span class="meta"># 1. 安装命令行</span></span><br><span class="line">npm install -g rax-cli</span><br><span class="line"></span><br><span class="line"><span class="meta"># 2. 初始化项目</span></span><br><span class="line">rax init hello-rax</span><br><span class="line"></span><br><span class="line"><span class="meta"># 3. 启动 </span></span><br><span class="line">npm run start</span><br></pre></td></tr></table></figure>
+<h3 id="跑起来"><a href="#跑起来" class="headerlink" title="跑起来"></a>跑起来</h3><h4 id="Web端"><a href="#Web端" class="headerlink" title="Web端"></a>Web端</h4><p>通过控制台生成的二维码，直接访问</p>
+<h4 id="Native端"><a href="#Native端" class="headerlink" title="Native端"></a>Native端</h4><ol>
+<li>先安装Weex: <code>npm install -g weex-toolkit</code></li>
+</ol>
+<p>再在Rax目录中创建Weex环境：</p>
+<p><img src="/img/2018/15312064317112.jpg" alt=""></p>
+<ol start="2">
+<li>通过<strong>weex create</strong>创建的工程，没有iOS和Android工程模板，此时需要安装<strong>weex</strong>应用模板</li>
+</ol>
+<figure class="highlight oxygene"><table><tr><td class="code"><pre><span class="line"><span class="comment">// iOS (需要手动执行pod install)</span></span><br><span class="line">weex <span class="keyword">platform</span> <span class="keyword">add</span> ios</span><br><span class="line"></span><br><span class="line"><span class="comment">// 安卓</span></span><br><span class="line">weex <span class="keyword">platform</span> <span class="keyword">add</span> android</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>打开<code>WeexDemo.xcworkspace</code>，修改<code>BUNDLE_URL</code>并运行<code>playground</code></li>
+</ol>
+<p><img src="/img/2018/15312115498098.jpg" alt=""></p>
+<ol start="4">
+<li>启动模拟器，就可以看到<code>Rax</code>跑起来了</li>
+</ol>
+<p><img src="/img/2018/15312116337280.jpg" alt=""></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
+<li>大腿方：Flutter抱Google，Rax抱Alibaba;</li>
+<li>易用性：Flutter完爆Rax。Rax创建后只有编码环境，运行环境还得再装Weex，而Weex又是一个神奇的东西，对Native不熟的，可能会比较捉急；</li>
+<li>通用性：Flutter目前主要用来做移动端，Web端不行。Rax则通吃，包括Web；</li>
+<li>Weex和RN对比：<a href="https://zhuanlan.zhihu.com/p/21677103">Weex和RN对比</a></li>
+</ol>
+
+        </div>
+        <div class="post-tool">
+            <a class="btn-thumbs-up" href="javascript:void(0);" data-cid="52" title="95">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> 打赏
+            </a>
+        </div>
+        
+        <div class="post-tags">标签：
+            
+        </div>
+        
+    </article>
+    
+    <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p>
+    
+    
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var disqus_config = function () {
+        this.page.url = 'https://shuoit.net/tech-notes/flutter-and-rax-hello-1531130418.html';
+        this.page.identifier = 'tech-notes/flutter-and-rax-hello-1531130418.html';
+    };
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, disqus_shortname = 'shuoit', s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</div>
+<script src="/js/busuanzi.pure.mini.js"></script>
+
+        </div><!-- end #main-->
+    </div><!-- end #body -->
+    <footer class="footer">
+    <div class="footer-inner">
+        <p>
+            <a href="/about" title="关于本站">关于本站</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <!-- 自定义链接 -->
+            <a href="/help" title="help">急救中心</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/links" title="友情链接">友情链接</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/app" title="App下载">App下载</a>
+        </p>
+        <p>
+            本站点采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>，已建立<a href="/timeline" id="siteBuildingTime"></a>天<br>
+            ©2017 基于<a href="http://hexo.io" target="_blank">Hexo</a>搭建
+            ，主题&nbsp<a href="https://github.com/tangkunyin/hexo-theme-jsimple" target="_blank">JSimple</a>
+            ，作者<a href="https://www.tangkunyin.com" target="_blank">唐先森</a>
+            ，Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
+        </p>
+        
+<!-- Tencent Analytics -->
+<script type="text/javascript" src="//tajs.qq.com/stats?sId=65036274" charset="UTF-8"></script>
+
+
+    </div>
+</footer>
+<script src="/js/InsightSearch.js"></script>
+<script src="/js/SimpleCore.js"></script>
+
+</div>
+<div class="fixed-btn">
+    <a class="btn-gotop" href="javascript:"> <i class="fa fa-angle-up"></i></a>
+</div>
+<script>
+    $(function () {
+        SimpleCore.init({
+            buildingTime: '01/20/2018',
+            current: $('.post-tags').length > 0 ? 'post' : 'archive',
+            snsQRCode: '/images/sns-qrcode.png',
+            donateImg: '/images/donate-qr.png',
+        });
+    });
+</script>
+</body>
+</html>
