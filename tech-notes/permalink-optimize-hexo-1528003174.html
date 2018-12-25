@@ -191,23 +191,27 @@
             </div>
             <h2 class="post-title">将Hexo博客url优化进行到底</h2>
             <div class="post-meta">
-                本文总共558个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+                本文总共1024个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
             </div>
         </div>
         <div class="post-content markdown-body">
-            <h2 id="事件源自2017年元旦时的一篇博文"><a href="#事件源自2017年元旦时的一篇博文" class="headerlink" title="事件源自2017年元旦时的一篇博文"></a>事件源自2017年元旦时的一篇博文</h2><p><a href="https://shuoit.net/front-end/hexo-links/1483800845.html">在hexo博客中打造相对完美的URL</a></p>
+            <h2 id="事件源自2017年元旦时的一篇博文"><a href="#事件源自2017年元旦时的一篇博文" class="headerlink" title="事件源自2017年元旦时的一篇博文"></a>事件源自2017年元旦时的一篇博文</h2><p><a href="https://shuoit.net/tech-notes/hexo-links-1483800845.html">在hexo博客中打造相对完美的URL</a></p>
 <p>那篇文章，我向大家介绍了如何在hexo博客中打造一个相对好看、好用的URL链接。然而遗憾的是，<strong>时间戳</strong>在permalink中没法直接使用。当时说了一个笨办法，就是模板中手动去加时间戳，然后文章生成是再取出来。不知道使用过的朋友有没有喷我…</p>
 <p>时隔一年多，我又准备玩hexo了，理由是被类似<strong>为知笔记</strong>这种东西伤透了心。</p>
 <p>然而也是一年多过去了，官方并没有做这样的支持，那我就不高兴了。在强迫症的驱使下，我读了他的源码，发现加这个时间戳相当简单，所以我义不容辞的提了这个<a href="https://github.com/hexojs/hexo/pull/3162">PR</a>。这是半个月前发生的事情，在我写这篇文章的时候，官方还没有Merge。所以你如果想在<strong>permalink</strong>中使用时间戳。办法就是人肉把<strong>node_module</strong>文件夹下指定的文件做修改。怎么改？改哪个文件？改成啥样？请直接看那个PR。</p>
 <p>如果一切顺利，你现在就能愉快的玩耍了。比如：</p>
 <blockquote>
-<p><a href="https://shuoit.net/front-end/permalink-optimize-hexo/1528003174.html">https://shuoit.net/front-end/permalink-optimize-hexo/1528003174.html</a></p>
+<p><a href="https://shuoit.net/tech-notes/permalink-optimize-hexo-1528003174.html">https://shuoit.net/tech-notes/permalink-optimize-hexo-1528003174.html</a></p>
 </blockquote>
 <p>当然别忘了配置站点<strong>_config.yml</strong></p>
 <blockquote>
 <p>permalink: :category/:entitle/:timestamp.html</p>
 </blockquote>
 <p>最后，祝读者们儿童节快乐！</p>
+<h3 id="再来看"><a href="#再来看" class="headerlink" title="再来看"></a>再来看</h3><p>==========来自2018圣诞节的更新===============</p>
+<p>最近升级了NPM、NodeJS及Hexo依赖库，发现时间戳不好使了。（PS：之前人肉改了Hexo的源码，看上去并没有被Merge…）</p>
+<p>于是有了补丁包，操作姿势：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">1. mkdir patch/  &amp;&amp; cd patch</span><br><span class="line"></span><br><span class="line">2. touch run.sh &amp;&amp; vim run.sh</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/sh</span></span><br><span class="line"></span><br><span class="line">cp ./scripts/post.js ../node_modules/hexo/lib/hexo</span><br><span class="line">cp ./scripts/scaffold.js ../node_modules/hexo/lib/hexo</span><br><span class="line"></span><br><span class="line">3. mkdir scripts</span><br><span class="line">// 将node_modules/hexo/lib/hexo对应的文件复制到新建的这个目录中。内容做点更改。更改内容参见上面提到的PR</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">4. chmod 775 run.sh &amp;&amp; ./run.sh</span><br><span class="line"></span><br><span class="line">5. hexo n test</span><br><span class="line">// 是不是发现时间戳被加回来了....</span><br></pre></td></tr></table></figure>
 
         </div>
         <div class="post-tool">
