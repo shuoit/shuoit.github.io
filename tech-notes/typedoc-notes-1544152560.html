@@ -50,11 +50,11 @@
 <link rel="shortcut icon" href="/images/favicon.png">
 
 
-<title>标签云 - 说IT</title>
+<title>typedoc使用笔记 - 说IT</title>
 
-<meta name="keywords" content="说IT，技术博客，原创IT博客">
+<meta name="keywords" content="TypeDoc,TypeScript">
 
-<meta name="description " content="说IT是一个面向Apple和JavaScript生态的技术博客，内容聚焦于前后端开发、产品设计等方向。作者：唐先森(@tangkunyin)，网址：https://shuoit.net。">
+<meta name="description " content="TypeDoc 是一款支持 TypeScript 的文档生成工具，安装、使用方便。最后生成的是静态的 HTML 文件，界面简洁，提供多个可选的配置，并且可以按照自己的需求自定义界面样式。">
 
 </head>
 <body>
@@ -122,8 +122,22 @@
 </div>
             <div class="page-title">
     <ul>
-        <li><a href="/" data-name="首页" title="Back Home">首页</a></li>
-        <li><a href="/archives" data-name="归档" title="归档">归档</a></li>
+        <li><a href="/">最新</a></li>
+        
+            
+                <li class="active">
+                    <a href="/categories/tech-notes" data-name="技术">技术</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/humanities" data-name="人文">人文</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/others" data-name="其他">其他</a>
+                </li>
+            
+        
         <li class="page-search">
     <form id="search" class="search-form">
         <label for="s" class="sr-only">请输入关键字</label>
@@ -165,54 +179,81 @@
 <div class="main-inner">
     <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
         <div class="post-header">
-            <h3 class="post-title">总的来说 - 目前共计19类标签</h3>
+            <div class="post-author clearfix">
+                <a class="avatar fleft" href="https://www.tangkunyin.com" target="_blank">
+                    <img width="48" src="/images/favicon.png" alt="avatar">
+                </a>
+                <p><span class="label">作者</span>
+                    <a href="https://about.tangkunyin.com" target="_blank">唐先森</a>
+                    <span title="最后编辑于2018-12-07">2018-12-07</span>
+                </p>
+                <p>一个写代码的「伪文人」</p>
+            </div>
+            <h2 class="post-title">Typedoc使用笔记</h2>
+            <div class="post-meta">
+                本文总共632个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+            </div>
         </div>
-        <p><img src="/images/tags-bg.jpg" alt="tags-bg"></p> 
-        <div class="post-content markdown-body" itemprop="articleBody">
-            <ul class="tag-list">
-                
-                <li><a href="/tags/Java/">Java(1)</a></li>
-                
-                <li><a href="/tags/javascript/">JavaScript(12)</a></li>
-                
-                <li><a href="/tags/MacTools/">Mac必备工具(3)</a></li>
-                
-                <li><a href="/tags/NodeJS/">NodeJS(1)</a></li>
-                
-                <li><a href="/tags/RN/">ReactNative(4)</a></li>
-                
-                <li><a href="/tags/typescript/">TypeScript(2)</a></li>
-                
-                <li><a href="/tags/Typescript/">Typescript(1)</a></li>
-                
-                <li><a href="/tags/Vue/">Vue(1)</a></li>
-                
-                <li><a href="/tags/WebStrom/">WebStrom(1)</a></li>
-                
-                <li><a href="/tags/git/">git(1)</a></li>
-                
-                <li><a href="/tags/hexo/">hexo(3)</a></li>
-                
-                <li><a href="/tags/iOS/">iOS(21)</a></li>
-                
-                <li><a href="/tags/javascript/">javascript(1)</a></li>
-                
-                <li><a href="/tags/pm2/">pm2(1)</a></li>
-                
-                <li><a href="/tags/swift/">swift(4)</a></li>
-                
-                <li><a href="/tags/serverSide/">后端(1)</a></li>
-                
-                <li><a href="/tags/website/">网站(3)</a></li>
-                
-                <li><a href="/tags/CrossPlatform/">跨平台(1)</a></li>
-                
-                <li><a href="/tags/CoolTech/">黑科技(2)</a></li>
-                
-            </ul>
+        <div class="post-content markdown-body">
+            <p><strong>TypeDoc 是一款支持 TypeScript 的文档生成工具。</strong></p>
+<p>安装、使用方便。最后生成的是静态的 HTML 文件，界面简洁。</p>
+<p>提供多个可选的配置，并且可以按照自己的需求自定义界面样式。</p>
+<p>源码地址：<a href="https://github.com/TypeStrong/typedoc">TypeDoc</a></p>
+<p>文档地址：<a href="https://typedoc.org/api/index.html">TypeDoc Documentation</a></p>
+<p><img src="/img/2018/15445225439852.jpg" alt=""></p>
+<h3 id="优雅的使用方式"><a href="#优雅的使用方式" class="headerlink" title="优雅的使用方式"></a>优雅的使用方式</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 1. 配置到package.json中，其中使用npx命令，无需单独安装typedoc库</span></span><br><span class="line"><span class="comment">// 2. transform.js里可以将目标文档的特殊关键字替换。做一些前置处理</span></span><br><span class="line"></span><br><span class="line"><span class="string">"scripts"</span>: &#123;</span><br><span class="line">    <span class="string">"typingsdoc"</span>: <span class="string">"node typings/transform.js &amp;&amp; npx typedoc --out ./typings/doc  ./typings  --module umd"</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+<h3 id="两个好用的插件"><a href="#两个好用的插件" class="headerlink" title="两个好用的插件"></a>两个好用的插件</h3><p><a href="https://github.com/christopherthielen/typedoc-plugin-single-line-tags">typedoc-plugin-single-line-tags</a></p>
+<p>以上插件可以用一个注解，将描述展示为一行。而非多行，比如一个私有类，可以增加一个@private，然后增加一段说明</p>
+<p><a href="https://github.com/christopherthielen/typedoc-plugin-external-module-name">typedoc-plugin-external-module-name</a></p>
+<p>当有多个模块，分为不同文件时，可以用上面的插件将模块区分出来。做类似的二级栏目。</p>
+<h3 id="关于同一Module文档的二级分类"><a href="#关于同一Module文档的二级分类" class="headerlink" title="关于同一Module文档的二级分类"></a>关于同一Module文档的二级分类</h3><ol>
+<li>使用上面的插件，按文件区分；</li>
+<li>使用这个插件搞定：<a href="https://github.com/tangkunyin/typedoc-plugin-toc-group">typedoc-plugin-toc-group</a></li>
+</ol>
+<blockquote>
+<p>至于插件的开发，请移步这篇文章：</p>
+</blockquote>
+
         </div>
+        <div class="post-tool">
+            <a class="btn-thumbs-up" href="javascript:void(0);" data-cid="52" title="95">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> 打赏
+            </a>
+        </div>
+        
+        <div class="post-tags">标签：
+            
+            <a href="/tags/typescript/">TypeScript</a>
+            
+        </div>
+        
     </article>
-</div><!-- end #main-->
+    
+    <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p>
+    
+    
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var disqus_config = function () {
+        this.page.url = 'https://shuoit.net/tech-notes/typedoc-notes-1544152560.html';
+        this.page.identifier = 'tech-notes/typedoc-notes-1544152560.html';
+    };
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, disqus_shortname = 'shuoit', s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</div>
+<script src="/js/busuanzi.pure.mini.js"></script>
 
         </div><!-- end #main-->
     </div><!-- end #body -->

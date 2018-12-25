@@ -50,11 +50,11 @@
 <link rel="shortcut icon" href="/images/favicon.png">
 
 
-<title>标签云 - 说IT</title>
+<title>npx使用 - 说IT</title>
 
-<meta name="keywords" content="说IT，技术博客，原创IT博客">
+<meta name="keywords" content="npx">
 
-<meta name="description " content="说IT是一个面向Apple和JavaScript生态的技术博客，内容聚焦于前后端开发、产品设计等方向。作者：唐先森(@tangkunyin)，网址：https://shuoit.net。">
+<meta name="description " content="npx命令说明，及用法简介。">
 
 </head>
 <body>
@@ -122,8 +122,22 @@
 </div>
             <div class="page-title">
     <ul>
-        <li><a href="/" data-name="首页" title="Back Home">首页</a></li>
-        <li><a href="/archives" data-name="归档" title="归档">归档</a></li>
+        <li><a href="/">最新</a></li>
+        
+            
+                <li class="active">
+                    <a href="/categories/tech-notes" data-name="技术">技术</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/humanities" data-name="人文">人文</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/others" data-name="其他">其他</a>
+                </li>
+            
+        
         <li class="page-search">
     <form id="search" class="search-form">
         <label for="s" class="sr-only">请输入关键字</label>
@@ -165,54 +179,75 @@
 <div class="main-inner">
     <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
         <div class="post-header">
-            <h3 class="post-title">总的来说 - 目前共计19类标签</h3>
+            <div class="post-author clearfix">
+                <a class="avatar fleft" href="https://www.tangkunyin.com" target="_blank">
+                    <img width="48" src="/images/favicon.png" alt="avatar">
+                </a>
+                <p><span class="label">作者</span>
+                    <a href="https://about.tangkunyin.com" target="_blank">唐先森</a>
+                    <span title="最后编辑于2018-12-07">2018-12-07</span>
+                </p>
+                <p>一个写代码的「伪文人」</p>
+            </div>
+            <h2 class="post-title">Npx使用</h2>
+            <div class="post-meta">
+                本文总共513个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+            </div>
         </div>
-        <p><img src="/images/tags-bg.jpg" alt="tags-bg"></p> 
-        <div class="post-content markdown-body" itemprop="articleBody">
-            <ul class="tag-list">
-                
-                <li><a href="/tags/Java/">Java(1)</a></li>
-                
-                <li><a href="/tags/javascript/">JavaScript(12)</a></li>
-                
-                <li><a href="/tags/MacTools/">Mac必备工具(3)</a></li>
-                
-                <li><a href="/tags/NodeJS/">NodeJS(1)</a></li>
-                
-                <li><a href="/tags/RN/">ReactNative(4)</a></li>
-                
-                <li><a href="/tags/typescript/">TypeScript(2)</a></li>
-                
-                <li><a href="/tags/Typescript/">Typescript(1)</a></li>
-                
-                <li><a href="/tags/Vue/">Vue(1)</a></li>
-                
-                <li><a href="/tags/WebStrom/">WebStrom(1)</a></li>
-                
-                <li><a href="/tags/git/">git(1)</a></li>
-                
-                <li><a href="/tags/hexo/">hexo(3)</a></li>
-                
-                <li><a href="/tags/iOS/">iOS(21)</a></li>
-                
-                <li><a href="/tags/javascript/">javascript(1)</a></li>
-                
-                <li><a href="/tags/pm2/">pm2(1)</a></li>
-                
-                <li><a href="/tags/swift/">swift(4)</a></li>
-                
-                <li><a href="/tags/serverSide/">后端(1)</a></li>
-                
-                <li><a href="/tags/website/">网站(3)</a></li>
-                
-                <li><a href="/tags/CrossPlatform/">跨平台(1)</a></li>
-                
-                <li><a href="/tags/CoolTech/">黑科技(2)</a></li>
-                
-            </ul>
+        <div class="post-content markdown-body">
+            <p><code>npx</code>是<code>npm v5.2.0</code>引入的一条命令，引入这个命令的目的是为了提升开发者使用包内提供的命令行工具的体验。</p>
+<p>举例：使用<strong>create-react-app</strong>创建一个react项目。</p>
+<p>老方法：<br><figure class="highlight dsconfig"><table><tr><td class="code"><pre><span class="line"><span class="string">npm </span><span class="string">install </span>-g <span class="built_in">create-react-app</span></span><br><span class="line"><span class="built_in">create-react-app</span> <span class="string">my-app</span></span><br></pre></td></tr></table></figure></p>
+<p>npx方式：<br><figure class="highlight dsconfig"><table><tr><td class="code"><pre><span class="line"><span class="string">npx </span><span class="built_in">create-react-app</span> <span class="string">my-app</span></span><br></pre></td></tr></table></figure></p>
+<p>这条命令会临时安装 create-react-app 包，命令完成后create-react-app 会删掉，不会出现在 global 中。下次再执行，还是会重新临时安装。</p>
+<p>也就是说 npx 会自动查找当前依赖包中的可执行文件，如果找不到，就会去 PATH 里找。如果依然找不到，就会帮你安装！</p>
+<p>npx 甚至支持运行远程仓库的可执行文件：<br><figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">npx <span class="string">github:</span>piuccio/cowsay hello</span><br></pre></td></tr></table></figure></p>
+<p>主要特点：</p>
+<ol>
+<li>临时安装可执行依赖包，不用全局安装，不用担心长期的污染。</li>
+<li>可以执行依赖包中的命令，安装完成自动运行。</li>
+<li>自动加载node_modules中依赖包，不用指定$PATH。</li>
+<li>可以指定node版本、命令的版本，解决了不同项目使用不同版本的命令的问题。</li>
+</ol>
+
         </div>
+        <div class="post-tool">
+            <a class="btn-thumbs-up" href="javascript:void(0);" data-cid="52" title="95">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> 打赏
+            </a>
+        </div>
+        
+        <div class="post-tags">标签：
+            
+        </div>
+        
     </article>
-</div><!-- end #main-->
+    
+    <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p>
+    
+    
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var disqus_config = function () {
+        this.page.url = 'https://shuoit.net/tech-notes/what-is-the-npx-1544153760.html';
+        this.page.identifier = 'tech-notes/what-is-the-npx-1544153760.html';
+    };
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, disqus_shortname = 'shuoit', s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</div>
+<script src="/js/busuanzi.pure.mini.js"></script>
 
         </div><!-- end #main-->
     </div><!-- end #body -->
