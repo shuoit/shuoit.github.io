@@ -50,11 +50,11 @@
 <link rel="shortcut icon" href="/images/favicon.png">
 
 
-<title>标签 - typescript - 说IT</title>
+<title>ts编译之一把梭生成@types和js - 说IT</title>
 
-<meta name="keywords" content="说IT，技术博客，原创IT博客">
+<meta name="keywords" content="typescript,tsconfig,ts编译配置">
 
-<meta name="description " content="说IT，一个关注技术和人文的原创IT博客。聚焦于技术、读书、生活、旅行，技术主要面向大前端，网址：https://shuoit.net。">
+<meta name="description " content="一个变通的方式，解决tsc不能同时配置declaration和allowJs都为true的姿势。本文试着采用一把梭的方式编译ts文件、并生成types">
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -141,21 +141,21 @@
 </div>
             <div class="page-title">
     <ul>
-        <li class="">
-            <a href="/" data-name="最近文章">最近</a>
-        </li>
+        <li><a href="/">最新</a></li>
         
-        <li class="">
-            <a href="/categories/tech-notes" data-name="技术">技术</a>
-        </li>
-        
-        <li class="">
-            <a href="/categories/humanities" data-name="人文">人文</a>
-        </li>
-        
-        <li class="">
-            <a href="/categories/others" data-name="其他">其他</a>
-        </li>
+            
+                <li class="active">
+                    <a href="/categories/tech-notes" data-name="技术">技术</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/humanities" data-name="人文">人文</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/others" data-name="其他">其他</a>
+                </li>
+            
         
         <li class="page-search">
     <form id="search" class="search-form">
@@ -196,154 +196,81 @@
     </ul>
 </div>
 <div class="main-inner">
-    
-    
-    
-<article class="post">
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
+    <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div class="post-header">
+            <div class="post-author clearfix">
+                <a class="avatar fleft" href="https://www.tangkunyin.com" target="_blank">
+                    <img width="48" src="/images/favicon.png" alt="avatar">
+                </a>
+                <p><span class="label">作者</span>
+                    <a href="https://about.tangkunyin.com" target="_blank">唐先森</a>
+                    <span title="最后编辑于2019-01-03">2019-01-03</span>
+                </p>
+                <p>一个写代码的「伪文人」</p>
+            </div>
+            <h2 class="post-title">TS编译之一把梭生成@types和js</h2>
+            <div class="post-meta">
+                本文总共1228个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+            </div>
+        </div>
+        <div class="post-content markdown-body">
+            <h3 id="先了解下情况"><a href="#先了解下情况" class="headerlink" title="先了解下情况"></a>先了解下情况</h3><p>如果<code>tsconfig.json</code>中，同时配置了如下操作：</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"compilerOptions"</span>: &#123;</span><br><span class="line">    <span class="attr">"charset"</span>: <span class="string">"utf8"</span>,</span><br><span class="line">    <span class="attr">"sourceMap"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"allowSyntheticDefaultImports"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"target"</span>: <span class="string">"es5"</span>,</span><br><span class="line">    <span class="attr">"moduleResolution"</span>: <span class="string">"node"</span>,</span><br><span class="line">    <span class="attr">"module"</span>: <span class="string">"umd"</span>,</span><br><span class="line">    <span class="attr">"outDir"</span>: <span class="string">"./dist"</span>,</span><br><span class="line">    <span class="attr">"experimentalDecorators"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"removeComments"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"preserveConstEnums"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"diagnostics"</span>: <span class="literal">true</span>,</span><br><span class="line">    "allowJs": true,// 允许编译javascript文件</span><br><span class="line">    "declaration": true,//生成相应的 .d.ts文件（类似Objc中的.h文件）</span><br><span class="line">    "declarationDir": "./@types"//单独为头文件指定存放的位置</span><br><span class="line">  &#125;,</span><br><span class="line">  "include": [</span><br><span class="line">    <span class="string">"src/**/*"</span></span><br><span class="line">  ],</span><br><span class="line">  "exclude": [</span><br><span class="line">    "node_modules",</span><br><span class="line">    <span class="string">"dist"</span></span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>从这里开始，allowJs如果为true，则declaration就不应该存在。否则你将会看到编译时如下的报错…</p>
+<blockquote>
+<p>Option ‘allowJs’ cannot be specified with option ‘declaration’.</p>
+</blockquote>
+<p><img src="/img/2019/15465174447511.jpg" alt=""></p>
+<p>看目录，好像需要的也都生成了！</p>
+<p><img src="/img/2019/15465177839896.jpg" alt=""></p>
+<p>但是作为一个优秀发程序员，能眼睁睁看到编译报错而不管嘛，当然不能！！！于是去撸<code>github</code>，发现早在2016年，微软那边就知道这事：<a href="https://github.com/Microsoft/TypeScript/issues/7546">issues-7546</a>，但为毛现在还存在这个问题….</p>
+<p>于是看他们讨论<del>互怼</del>，无意中看到巴基斯坦一兄弟的姿势。果断试了下，哎，别说，行了….</p>
+<p><img src="/img/2019/15465180905253.jpg" alt=""></p>
+<h3 id="我把上边的操作整理了下，变成了一把梭，请看"><a href="#我把上边的操作整理了下，变成了一把梭，请看" class="headerlink" title="我把上边的操作整理了下，变成了一把梭，请看"></a>我把上边的操作整理了下，变成了一把梭，请看</h3><figure class="highlight"><table><tr><td class="code"><pre><span class="line">"scripts": &#123;</span><br><span class="line">    "tsc": "tsc",</span><br><span class="line">    "types": "tsc -d --emitDeclarationOnly --allowJs false --declarationDir ./@types",</span><br><span class="line">    "prepublish": "npm run tsc &amp;&amp; npm run types"</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+<p>于是，之后你需要执行<code>npm run prepublish</code>就可以了。前提是把下边这两句从<code>tsconfig.json</code>中干掉</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"declaration"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"declarationDir"</span>: <span class="string">"./@types"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果读者有更成熟的方案，麻烦告知。感谢！</p>
+
+        </div>
+        <div class="post-tool">
+            <a class="btn-thumbs-up" href="javascript:void(0);" data-cid="52" title="95">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> 打赏
             </a>
-            <em>·</em>2019-01-03
         </div>
-        <a class="post-title" href="/tech-notes/Allow--declaration-with--allowJs-1546511333.html" target="_self" title="TS编译之一把梭生成@types和js">TS编译之一把梭生成@types和js</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
+        
+        <div class="post-tags">标签：
             
-                <em>·</em>
-                <a href="https://shuoit.net/tags/typescript/" target="_self">TypeScript</a>
+            <a href="/tags/typescript/">TypeScript</a>
             
         </div>
-    </div>
-    <div class="post-desc">
-        一个变通的方式，解决tsc不能同时配置declaration和allowJs都为true的姿势。本文试着采用一把梭的方式编译ts文件、并生成types
-    </div>
-</article>
-
-
-
+        
+    </article>
+    
+    <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p>
     
     
-<article class="post">
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
-            </a>
-            <em>·</em>2018-12-26
-        </div>
-        <a class="post-title" href="/tech-notes/how-to-create-plugin-for-typedoc-1545808023.html" target="_self" title="TypeDoc插件开发小记">TypeDoc插件开发小记</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/typescript/" target="_self">TypeScript</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        如何为TypeDoc文档系统开发插件？本文记录了typedoc-plugin-toc-group的开发流程。希望对有需求的朋友一定帮助。
-    </div>
-</article>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var disqus_config = function () {
+        this.page.url = 'https://shuoit.net/tech-notes/Allow--declaration-with--allowJs-1546511333.html';
+        this.page.identifier = 'tech-notes/Allow--declaration-with--allowJs-1546511333.html';
+    };
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, disqus_shortname = 'shuoit', s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
 
-
-
-    
-    
-<article class="post">
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
-            </a>
-            <em>·</em>2018-12-07
-        </div>
-        <a class="post-title" href="/tech-notes/typedoc-notes-1544152560.html" target="_self" title="Typedoc使用笔记">Typedoc使用笔记</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/typescript/" target="_self">TypeScript</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        TypeDoc 是一款支持 TypeScript 的文档生成工具，安装、使用方便。最后生成的是静态的 HTML 文件，界面简洁，提供多个可选的配置，并且可以按照自己的需求自定义界面样式。
-    </div>
-</article>
-
-
-
-    
-    
-<article class="post">
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
-            </a>
-            <em>·</em>2018-07-24
-        </div>
-        <a class="post-title" href="/tech-notes/mixed-coding-between-js-and-ts-1532415903.html" target="_self" title="JS和TS混编">JS和TS混编</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/javascript/" target="_self">JavaScript</a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/typescript/" target="_self">TypeScript</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        JS和TS混编
-    </div>
-</article>
-
-
-
-    
-    
-<article class="post">
-    
-    <!-- 有配图默认渲染第一张 -->
-    <div class="post-cover">
-        <a href="/tech-notes/ts-study-part1-1528259629.html" target="_self" title="Typescript入坑篇1" style="background-image:url(/img/2018/15459066435251.jpg)"></a>
-    </div>
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
-            </a>
-            <em>·</em>2018-06-06
-        </div>
-        <a class="post-title" href="/tech-notes/ts-study-part1-1528259629.html" target="_self" title="Typescript入坑篇1">Typescript入坑篇1</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/typescript/" target="_self">TypeScript</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        TypeScript入坑笔记第一篇。从没有到Hello World。除此之外，还将记录使用ESLint+Prettier来统一前端代码风格。
-    </div>
-</article>
-
-
-
-    
 </div>
-<!-- 分页开始 -->
-
+<script src="/js/busuanzi.pure.mini.js"></script>
 
         </div><!-- end #main-->
     </div><!-- end #body -->
