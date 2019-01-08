@@ -50,11 +50,11 @@
 <link rel="shortcut icon" href="/images/favicon.png">
 
 
-<title>标签 - javascript - 说IT</title>
+<title>typescript入坑篇2 - 说IT</title>
 
-<meta name="keywords" content="说IT，技术博客，原创IT博客">
+<meta name="keywords" content="typescript, tslang">
 
-<meta name="description " content="说IT，一个关注技术和人文的原创IT博客。聚焦于技术、读书、生活、旅行，技术主要面向大前端，网址：https://shuoit.net。">
+<meta name="description " content="TypeScript入坑笔记第二篇。这一部分记录下编码规范和一些简单的语法问题。">
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -141,21 +141,21 @@
 </div>
             <div class="page-title">
     <ul>
-        <li class="">
-            <a href="/" data-name="最近文章">最近</a>
-        </li>
+        <li><a href="/">最新</a></li>
         
-        <li class="">
-            <a href="/categories/tech-notes" data-name="技术">技术</a>
-        </li>
-        
-        <li class="">
-            <a href="/categories/humanities" data-name="人文">人文</a>
-        </li>
-        
-        <li class="">
-            <a href="/categories/others" data-name="其他">其他</a>
-        </li>
+            
+                <li class="active">
+                    <a href="/categories/tech-notes" data-name="技术">技术</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/humanities" data-name="人文">人文</a>
+                </li>
+            
+                <li class="">
+                    <a href="/categories/others" data-name="其他">其他</a>
+                </li>
+            
         
         <li class="page-search">
     <form id="search" class="search-form">
@@ -196,115 +196,75 @@
     </ul>
 </div>
 <div class="main-inner">
-    
-    
-    
-<article class="post">
-    
-    <!-- 有配图默认渲染第一张 -->
-    <div class="post-cover">
-        <a href="/tech-notes/redux-study-1528023659.html" target="_self" title="Redux架构学习" style="background-image:url(/img/2018/15280237110062.jpg)"></a>
-    </div>
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
+    <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div class="post-header">
+            <div class="post-author clearfix">
+                <a class="avatar fleft" href="https://www.tangkunyin.com" target="_blank">
+                    <img width="48" src="/images/favicon.png" alt="avatar">
+                </a>
+                <p><span class="label">作者</span>
+                    <a href="https://about.tangkunyin.com" target="_blank">唐先森</a>
+                    <span title="最后编辑于2019-01-07">2019-01-07</span>
+                </p>
+                <p>一个写代码的「伪文人」</p>
+            </div>
+            <h2 class="post-title">Typescript入坑篇2</h2>
+            <div class="post-meta">
+                本文总共165个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+            </div>
+        </div>
+        <div class="post-content markdown-body">
+            <h3 id="编码规范相关"><a href="#编码规范相关" class="headerlink" title="编码规范相关"></a>编码规范相关</h3><blockquote>
+<p>题外话，今天突然意识到文章英文标题好像有点怪…<code>ts-study</code>，当时为啥不写成<code>ts-learning</code>呢，明显感觉后者读起来更爽口啊😂️</p>
+</blockquote>
+<p>资料：</p>
+<ul>
+<li><a href="https://semlinker.com/ts-intro-and-guide/">Typescript Guidelines</a></li>
+<li><a href="https://zhongsp.gitbooks.io/typescript-handbook/">TypeScript Handbook（中文版）</a></li>
+<li><a href="https://jkchao.github.io/typescript-book-chinese/">深入理解 TypeScript</a></li>
+<li><a href="https://github.com/semlinker/awesome-typescript">awesome-typescript</a></li>
+</ul>
+
+        </div>
+        <div class="post-tool">
+            <a class="btn-thumbs-up" href="javascript:void(0);" data-cid="52" title="95">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> 打赏
             </a>
-            <em>·</em>2018-06-03
         </div>
-        <a class="post-title" href="/tech-notes/redux-study-1528023659.html" target="_self" title="Redux架构学习">Redux架构学习</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
+        
+        <div class="post-tags">标签：
             
-                <em>·</em>
-                <a href="https://shuoit.net/tags/javascript/" target="_self">JavaScript</a>
+            <a href="/tags/typescript/">TypeScript</a>
             
         </div>
-    </div>
-    <div class="post-desc">
-        来自2018.1.22的笔记：Redux架构学习笔记
-    </div>
-</article>
-
-
-
+        
+    </article>
+    
+    <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p>
     
     
-<article class="post">
-    
-    <!-- 有配图默认渲染第一张 -->
-    <div class="post-cover">
-        <a href="/tech-notes/flux-study-1528023412.html" target="_self" title="Flux架构理解" style="background-image:url(/img/2018/15280235400292.jpg)"></a>
-    </div>
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
-            </a>
-            <em>·</em>2018-06-03
-        </div>
-        <a class="post-title" href="/tech-notes/flux-study-1528023412.html" target="_self" title="Flux架构理解">Flux架构理解</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/javascript/" target="_self">JavaScript</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        来自2018.1.22的笔记：Flux架构理解
-    </div>
-</article>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var disqus_config = function () {
+        this.page.url = 'https://shuoit.net/tech-notes/ts-study-part2-1546832521.html';
+        this.page.identifier = 'tech-notes/ts-study-part2-1546832521.html';
+    };
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, disqus_shortname = 'shuoit', s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
 
-
-
-    
-    
-<article class="post">
-    
-    <!-- 有配图默认渲染第一张 -->
-    <div class="post-cover">
-        <a href="/others/nodeppt-1504692052.html" target="_self" title="是时候抛弃你的OFFICE全家桶了" style="background-image:url(/img/2017/blackTech.png)"></a>
-    </div>
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://www.tangkunyin.com" target="_self">
-                <strong>唐先森</strong>
-            </a>
-            <em>·</em>2017-09-06
-        </div>
-        <a class="post-title" href="/others/nodeppt-1504692052.html" target="_self" title="是时候抛弃你的OFFICE全家桶了">是时候抛弃你的OFFICE全家桶了</a>
-        <div class="post-meta">
-            <a href="/tags" target="_self"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/javascript/" target="_self">JavaScript</a>
-            
-                <em>·</em>
-                <a href="https://shuoit.net/tags/CoolTech/" target="_self">黑科技</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        今天来说一个三年前的项目，于我而言算是是黑科技，给小伙伴们分享下使用心得。同时友情提示你，是时候抛弃office全家桶套餐了，这个更有营养。
-    </div>
-</article>
-
-
-
-    
 </div>
-<!-- 分页开始 -->
-
-<div id="btn-pager">
-    
-    <a class="extend prev" rel="prev" href="/tags/javascript/">上一页</a><a class="page-number" href="/tags/javascript/">1</a><span class="page-number current">2</span>
-</div>
-
+<script src="/js/busuanzi.pure.mini.js"></script>
 
         </div><!-- end #main-->
     </div><!-- end #body -->
