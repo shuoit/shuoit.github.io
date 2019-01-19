@@ -1,37 +1,5 @@
 <!DOCTYPE HTML>
 <html class="no-js" lang="zh-CN">
-<!--
-//                            _ooOoo_
-//                           o8888888o
-//                           88" . "88
-//                           (| -_- |)
-//                            O\ = /O
-//                        ____/`---'\____
-//                      .   ' \\| |// `.
-//                       / \\||| : |||// \
-//                     / _||||| -:- |||||- \
-//                       | | \\\ - /// | |
-//                     | \_| ''\---/'' | |
-//                      \ .-\__ `-` ___/-. /
-//                   ___`. .' /--.--\ `. . __
-//                ."" '< `.___\_<|>_/___.' >'"".
-//               | | : `- \`.;`\ _ /`;.`/ - ` : | |
-//                 \ \ `-. \_ __\ /__ _/ .-` / /
-//         ======`-.____`-.___\_____/___.-`____.-'======
-//                            `=---='
-//                 拦截插件累计拦截逗比攻击"1381438"次！
-//         .............................................
-//                  佛祖保佑             永无BUG
-//          佛曰:
-//                  写字楼里写字间，写字间里程序员；
-//                  程序人员写程序，又拿程序换酒钱。
-//                  酒醒只在网上坐，酒醉还来网下眠；
-//                  酒醉酒醒日复日，网上网下年复年。
-//                  但愿老死电脑间，不愿鞠躬老板前；
-//                  奔驰宝马贵者趣，公交自行程序员。
-//                  别人笑我忒疯癫，我笑自己命太贱；
-//                  不见满街漂亮妹，哪个归得程序员？
--->
 <head><meta name="generator" content="Hexo 3.8.0">
     <!--[if lte IE 9]>
 <meta http-equiv="refresh" content="0;url=https://shuoit.net/warn.html">
@@ -45,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
 <meta http-equiv="mobile-agent" content="format=html5; url=https://shuoit.net">
 <meta name="author" content="唐先森(https://www.tangkunyin.com)">
-<link rel="stylesheet" href="/css/SimpleStyle.min.css">
+<link rel="stylesheet" href="/css/JSimple.css">
 
 <link rel="shortcut icon" href="/images/favicon.png">
 
@@ -54,26 +22,32 @@
 
 <meta name="keywords" content="Mac必备工具，Mac开发必备软件，免费的Mac必备工具">
 
-<meta name="description " content="苹果操作系统虽然是不要钱的，但平台上几乎你认为有用并且用的爽的软件都不是免费的。这里我将分享一些我认为正常使用macOS必备的一些软件，有的与开发相关，你绝对值得拥有，重要的是，这一切都是免费的！">
+<meta name="description " content="苹果操作系统虽然是不要钱的，但平台上几乎你认为有用并且用的爽的软件都不是免费的。这里将分享一些必备的一些软件，走过路过不要错过。">
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-4837253996935841",
-          enable_page_level_ads: true
-     });
-</script>
+    
+    <!-- 自动广告 -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4837253996935841",
+            enable_page_level_ads: true
+        });
+    </script>
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131527701-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="//www.googletagmanager.com/gtag/js?id=UA-131527701-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-131527701-1');
+        </script>
+    
+    <!-- put your likes here. -->
 
-  gtag('config', 'UA-131527701-1');
-</script>
 
 </head>
 <body>
@@ -139,9 +113,10 @@
         </div>
     </div>
 </div>
+
             <div class="page-title">
     <ul>
-        <li><a href="/">最新</a></li>
+        <li><a href="/">最近</a></li>
         
             
                 <li class="">
@@ -159,38 +134,9 @@
         
         <li class="page-search">
     <form id="search" class="search-form">
-        <label for="s" class="sr-only">请输入关键字</label>
-        <input class="search-field" type="text" name="s" placeholder="请输入关键字">
-        <button type="submit" class="search-form-submit" title="搜索"><i class="fa fa-search"></i></button>
+        <input type="text" readonly="readonly" id="local-search-input-tip" placeholder="读物检索~">
+        <button type="button" disabled="disabled" class="search-form-submit"><i class="fa fa-search"></i></button>
     </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词...">
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(无标题)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
 </li>
 
     </ul>
@@ -204,21 +150,24 @@
                 </a>
                 <p><span class="label">作者</span>
                     <a href="https://about.tangkunyin.com" target="_blank">唐先森</a>
-                    <span title="最后编辑于2017-01-07">2017-01-07</span>
+                    <span title="最后编辑于&nbsp;2017-01-07">2017-01-07</span>
                 </p>
                 <p>一个写代码的「伪文人」</p>
             </div>
             <h2 class="post-title">macOS下超赞的工具推荐</h2>
             <div class="post-meta">
-                本文总共182个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+                本文共计88个字 |
+                您是第&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
             </div>
         </div>
         <div class="post-content markdown-body">
             <p><img src="/img/2017/free-mac-usefull-tools.jpg" alt="free-mac-usefull-tools"></p>
-<h2 id="以下分享部分为谷歌云端硬盘，所以麻烦自搭梯子"><a href="#以下分享部分为谷歌云端硬盘，所以麻烦自搭梯子" class="headerlink" title="以下分享部分为谷歌云端硬盘，所以麻烦自搭梯子"></a>以下分享部分为谷歌云端硬盘，所以麻烦自搭梯子</h2><h3 id="Top1"><a href="#Top1" class="headerlink" title="Top1"></a>Top1</h3><h4 id="mac系统清理和维护大师，是真大师"><a href="#mac系统清理和维护大师，是真大师" class="headerlink" title="mac系统清理和维护大师，是真大师"></a>mac系统清理和维护大师，是真大师</h4><p><a href="https://drive.google.com/file/d/1sCKdmRbx15ogzLa51s_kA5gBljqvJ5DF/view?usp=sharing">CleanMyMac</a></p>
-<h3 id="Top2"><a href="#Top2" class="headerlink" title="Top2"></a>Top2</h3><h4 id="mac下最好用的虚拟机（你要不信，那就算了）"><a href="#mac下最好用的虚拟机（你要不信，那就算了）" class="headerlink" title="mac下最好用的虚拟机（你要不信，那就算了）"></a>mac下最好用的虚拟机（你要不信，那就算了）</h4><p><a href="https://drive.google.com/file/d/1kCwbIsv5NABPkiH1PPOByKBJ6i8odaKb/view?usp=sharing">ParallelsDesktop</a></p>
-<h3 id="Top3"><a href="#Top3" class="headerlink" title="Top3"></a>Top3</h3><h4 id="花瓶抓包器：Charles"><a href="#花瓶抓包器：Charles" class="headerlink" title="花瓶抓包器：Charles"></a>花瓶抓包器：Charles</h4><p><a href="http://xclient.info/s/charles.html">Charles</a></p>
-<h3 id="Top-final"><a href="#Top-final" class="headerlink" title="Top final"></a>Top final</h3><h4 id="终极必杀技，其实很多软件我都是在这里找的，资源直接分享，多写无用，麻烦自提"><a href="#终极必杀技，其实很多软件我都是在这里找的，资源直接分享，多写无用，麻烦自提" class="headerlink" title="终极必杀技，其实很多软件我都是在这里找的，资源直接分享，多写无用，麻烦自提"></a>终极必杀技，其实很多软件我都是在这里找的，资源直接分享，多写无用，麻烦自提</h4><p><a href="http://sharefreeall.com/counter-strike-1-6-keygen-serial-number-active-for-mac-os-x-offline-online/">ShareFreeAll</a></p>
+<h3 id="系统相关，一键直达"><a href="#系统相关，一键直达" class="headerlink" title="系统相关，一键直达"></a>系统相关，一键直达</h3><p><a href="https://drive.google.com/file/d/1sCKdmRbx15ogzLa51s_kA5gBljqvJ5DF/view?usp=sharing">CleanMyMac</a></p>
+<p><a href="https://drive.google.com/file/d/1kCwbIsv5NABPkiH1PPOByKBJ6i8odaKb/view?usp=sharing">ParallelsDesktop</a></p>
+<p><a href="http://xclient.info/s/charles.html">Charles</a></p>
+<h3 id="其他资源，麻烦自提"><a href="#其他资源，麻烦自提" class="headerlink" title="其他资源，麻烦自提"></a>其他资源，麻烦自提</h3><p><a href="http://sharefreeall.com/counter-strike-1-6-keygen-serial-number-active-for-mac-os-x-offline-online/">ShareFreeAll</a></p>
+<p><a href="https://github.com/jaywcjlove/awesome-mac">awesome-mac</a></p>
+<p><a href="https://xclient.info/s/">XClient</a></p>
 
         </div>
         <div class="post-tool">
@@ -235,57 +184,103 @@
         
     </article>
     
-    <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p>
+    <p style="text-align: center">本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p>
     
     
-<div id="disqus_thread"></div>
+    
+    
+        <div class="adsense_post_left">
+            
+    <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4837253996935841" data-ad-slot="1712444257"></ins>
+
 <script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    var disqus_config = function () {
-        this.page.url = 'https://shuoit.net/others/mac-tools-1483804283.html';
-        this.page.identifier = 'others/mac-tools-1483804283.html';
-    };
-    (function () { // DON'T EDIT BELOW THIS LINE
-        var d = document, disqus_shortname = 'shuoit', s = d.createElement('script');
-        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+    (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-        Disqus.</a></noscript>
+
+        </div>
+        <div class="adsense_post_right">
+            
+    <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4837253996935841" data-ad-slot="6857083436"></ins>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        </div>
+        
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4837253996935841" data-ad-slot="3228829614" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    
+
+
+    
+    
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+             */
+            var disqus_config = function () {
+                this.page.url = 'https://shuoit.net/others/mac-tools-1483804283.html';
+                this.page.identifier = 'others/mac-tools-1483804283.html';
+            };
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document, disqus_shortname = 'shuoit', s = d.createElement('script');
+                s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+
 
 </div>
 <script src="/js/busuanzi.pure.mini.js"></script>
 
+
         </div><!-- end #main-->
     </div><!-- end #body -->
     <footer class="footer">
-    <div class="footer-inner">
+    <div class="footer-inner" style="text-align: left">
         <p>
-            <a href="/about" title="关于本站">关于本站</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/about" title="关于">关于</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
             <!-- 自定义链接 -->
-            <a href="/help" title="help">急救中心</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
-            <a href="/links" title="友情链接">友情链接</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
-            <a href="/app" title="App下载">App下载</a>
+            <a href="/help" title="帮助">帮助</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/links" title="友链">友链</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/app" title="应用">应用</a>
         </p>
         <p>
-            本站点采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>，已建立<a href="/timeline" id="siteBuildingTime"></a>天<br>
-            ©2017-<span id="cpYear"></span> 基于<a href="http://hexo.io" target="_blank">Hexo</a>搭建
-            ，主题&nbsp<a href="https://github.com/tangkunyin/hexo-theme-jsimple" target="_blank">JSimple</a>
-            ，作者<a href="https://www.tangkunyin.com" target="_blank">唐先森</a>
-            ，Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
+            本站已建立&nbsp<a href="/timeline" id="siteBuildingTime"></a>&nbsp天，<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="licence">采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议创作</a><br>
+            ©2017-<span id="cpYear"></span> 基于&nbsp<a href="http://hexo.io" target="_blank" rel="nofollow">Hexo</a>
+            ，主题采用&nbsp&nbsp<a href="https://github.com/tangkunyin/hexo-theme-jsimple" target="_blank" rel="bookmark">JSimple</a>
+            ，作者&nbsp<a href="" target="_blank" rel="friend"></a>
+            ，Hosted by <a href="https://coding.net/register?key=bcace447-fa41-4579-9783-86fdf0f723e2" style="font-weight: bold" target="_blank" rel="nofollow">Coding Pages</a>
         </p>
-        
-
     </div>
 </footer>
-<script src="/js/InsightSearch.js"></script>
 <script src="/js/SimpleCore.js"></script>
 
+</div>
+<!-- search pop -->
+<div class="popup search-popup local-search-popup">
+    <div class="local-search-header clearfix">
+        <span class="search-icon">
+            <i class="fa fa-search"></i>
+        </span>
+        <span class="popup-btn-close">
+            <i class="fa fa-times-circle"></i>
+        </span>
+        <div class="local-search-input-wrapper">
+            <input id="local-search-input" spellcheck="false" type="text" autocomplete="off" placeholder="请输入查询关键词">
+        </div>
+    </div>
+    <div id="local-search-result"></div>
 </div>
 <div class="fixed-btn">
     <a class="btn-gotop" href="javascript:"> <i class="fa fa-angle-up"></i></a>
@@ -297,6 +292,12 @@
             current: $('.post-tags').length > 0 ? 'post' : 'archive',
             snsQRCode: '/images/sns-qrcode.png',
             donateImg: '/images/donate-qr.png',
+            localSearch: {
+                dbPath: '/search.json',
+                trigger: 'auto',
+                topN: '1',
+                unescape: 'false'
+            }
         });
     });
 </script>
