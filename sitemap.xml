@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shuoit.net/tech-notes/use-gulp-to-speed-hexo-1547999542.html</loc>
+    <loc>https://shuoit.net/tech-notes/the-update-for-jsimple-in-early2019-1547728233.html</loc>
     
-    <lastmod>2019-01-20T16:20:26.054Z</lastmod>
+    <lastmod>2019-01-27T15:57:50.731Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech-notes/the-update-for-jsimple-in-early2019-1547728233.html</loc>
+    <loc>https://shuoit.net/tech-notes/use-gulp-to-speed-hexo-1547999542.html</loc>
     
-    <lastmod>2019-01-20T14:23:44.903Z</lastmod>
+    <lastmod>2019-01-27T15:49:57.863Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shuoit.net/tech-notes/iife-notes-1546923599.html</loc>
+    
+    <lastmod>2019-01-27T14:40:08.542Z</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>https://shuoit.net/others/mac-tools-1483804283.html</loc>
     
     <lastmod>2019-01-12T06:14:16.207Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tech-notes/iife-notes-1546923599.html</loc>
-    
-    <lastmod>2019-01-11T11:17:28.924Z</lastmod>
     
   </url>
   
