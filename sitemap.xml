@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuoit.net/links/index.html</loc>
+    
+    <lastmod>2019-03-11T02:03:15.378Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shuoit.net/tech-notes/Preact-learning-notes1-1548753818.html</loc>
     
     <lastmod>2019-03-09T15:04:27.383Z</lastmod>
@@ -369,13 +376,6 @@
     <loc>https://shuoit.net/humanities/Leave-Beijing-to-Nanjing-1546271894.html</loc>
     
     <lastmod>2019-01-19T12:34:55.974Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/links/index.html</loc>
-    
-    <lastmod>2019-01-12T06:16:57.562Z</lastmod>
     
   </url>
   
