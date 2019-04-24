@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shuoit.net/tech-notes/pm2-rn-combine-1528026635.html</loc>
+    <lastmod>2019-04-24</lastmod>
+  </url>  <url>
     <loc>https://shuoit.net/tech-notes/Preact-learning-notes1-1548753818.html</loc>
     <lastmod>2019-03-09</lastmod>
   </url>  <url>
@@ -8,9 +11,6 @@
     <lastmod>2019-03-09</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/what-is-the-npx-1544153760.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/pm2-rn-combine-1528026635.html</loc>
     <lastmod>2019-03-09</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/swift-in-commandLine-1528016729.html</loc>

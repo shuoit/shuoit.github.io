@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuoit.net/tech-notes/pm2-rn-combine-1528026635.html</loc>
+    
+    <lastmod>2019-04-24T02:15:46.682Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shuoit.net/links/index.html</loc>
     
     <lastmod>2019-03-11T02:03:15.378Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://shuoit.net/tech-notes/what-is-the-npx-1544153760.html</loc>
     
     <lastmod>2019-03-09T12:57:15.899Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tech-notes/pm2-rn-combine-1528026635.html</loc>
-    
-    <lastmod>2019-03-09T12:57:15.895Z</lastmod>
     
   </url>
   
