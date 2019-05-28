@@ -1,181 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://shuoit.net/tech-notes/pm2-rn-combine-1528026635.html</loc>
-    <lastmod>2019-04-24</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/Preact-learning-notes1-1548753818.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/git-revert-1528020667.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/what-is-the-npx-1544153760.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/swift-in-commandLine-1528016729.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/typedoc-notes-1544152560.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/ipa-command-packaging-1528014752.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/npm-script-postinstall-1528025660.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/highlight-webstorm-1528025404.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/humanities/the-optimization-about-tags-1552116737.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/iife-notes-1546923599.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/how-to-create-plugin-for-typedoc-1545808023.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/mixed-coding-between-js-and-ts-1532415903.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/humanities/always-refueling-but-never-awards-1547199536.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/ts-study-part2-1546832521.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/Allow--declaration-with--allowJs-1546511333.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/flutter-and-rax-hello-1531130418.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/url-encoding-iOS-1528012896.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/iOS-Pointer-1528013230.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/property-and-memberVar-in-iOS-1528011307.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/NSScanner-1528013009.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/mrc-and-arc-1528012490.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/dealloc-not-work-1528019847.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/exclusiveTouch-iOS-1528013386.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/others/jsimple-usage-1492480198.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/swift-oc-coding-1528018780.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/three-unary-iOS-1528015549.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/performSelector-warning-fix-1528016144.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/swift-oc-coding-1528018777.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/random-objectiveC-1528013719.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/data-pass-in-iOS-1528013544.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech-notes/pure-coding-layout-iOS-1528015316.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/pushViewController-change-1528013902.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/interfaceOrientation-iOS-1528015689.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/AES_CBC-iOS-1528016470.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/property-in-action-iOS-1528014051.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/instancetype-iOS-1528012736.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/javascript-module-notes-1544172600.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/cross-platform-desktop-1528555686.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/extended-attri-in-mac-1528020192.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/others/WizNote-Uninstall-1528030114.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/others/mac-tools-1483804283.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/hexo-links-1483800845.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/permalink-optimize-hexo-1528003174.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/the-update-for-jsimple-in-early2019-1547728233.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/use-gulp-to-speed-hexo-1547999542.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/create-rn-in-better-way-1528026020.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/react16-usage-1528027632.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/redux-study-1528023659.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/react-navigation-1528027186.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/ts-study-part1-1528259629.html</loc>
-    <lastmod>2019-03-09</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/swift-in-serverside-1492851464.html</loc>
-    <lastmod>2019-01-29</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/humanities/Leave-Beijing-to-Nanjing-1546271894.html</loc>
-    <lastmod>2019-01-19</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/mobx-vs-redux-1528024961.html</loc>
-    <lastmod>2018-11-05</lastmod>
+    <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/mobx-core-study-1528024413.html</loc>
-    <lastmod>2018-11-05</lastmod>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/use-gulp-to-speed-hexo-1547999542.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/NSScanner-1528013009.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/property-in-action-iOS-1528014051.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/iOS-Pointer-1528013230.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/humanities/the-optimization-about-tags-1552116737.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/ts-study-part1-1528259629.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/javascript-module-notes-1544172600.html</loc>
+    <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/mobx-study-1528023982.html</loc>
-    <lastmod>2018-11-05</lastmod>
+    <lastmod>2019-05-28</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/flux-study-1528023412.html</loc>
-    <lastmod>2018-11-05</lastmod>
+    <loc>https://shuoit.net/tech-notes/cross-platform-desktop-1528555686.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/typedoc-notes-1544152560.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/others/WizNote-Uninstall-1528030114.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/iife-notes-1546923599.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/performSelector-warning-fix-1528016144.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/humanities/always-refueling-but-never-awards-1547199536.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/pushViewController-change-1528013902.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/how-to-create-plugin-for-typedoc-1545808023.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/exclusiveTouch-iOS-1528013386.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/swift-oc-coding-1528018780.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/interfaceOrientation-iOS-1528015689.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/others/jsimple-usage-1492480198.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/mobx-vs-redux-1528024961.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/hexo-links-1483800845.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/ts-study-part2-1546832521.html</loc>
+    <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/vue-study-notes-1528027974.html</loc>
-    <lastmod>2018-11-05</lastmod>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/ipa-command-packaging-1528014752.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/extended-attri-in-mac-1528020192.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/git-revert-1528020667.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/mixed-coding-between-js-and-ts-1532415903.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/swift-oc-coding-1528018777.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/flutter-and-rax-hello-1531130418.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/instancetype-iOS-1528012736.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/npm-script-postinstall-1528025660.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/AES_CBC-iOS-1528016470.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/react16-usage-1528027632.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/data-pass-in-iOS-1528013544.html</loc>
+    <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/others/nodeppt-1504692052.html</loc>
-    <lastmod>2018-06-03</lastmod>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/pm2-rn-combine-1528026635.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/react-navigation-1528027186.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/permalink-optimize-hexo-1528003174.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/what-is-the-npx-1544153760.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/highlight-webstorm-1528025404.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/url-encoding-iOS-1528012896.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/swift-in-commandLine-1528016729.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/mrc-and-arc-1528012490.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/Preact-learning-notes1-1548753818.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/flux-study-1528023412.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/the-update-for-jsimple-in-early2019-1547728233.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/create-rn-in-better-way-1528026020.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/dealloc-not-work-1528019847.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/humanities/Leave-Beijing-to-Nanjing-1546271894.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/redux-study-1528023659.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/three-unary-iOS-1528015549.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/others/mac-tools-1483804283.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/Allow--declaration-with--allowJs-1546511333.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/swift-in-serverside-1492851464.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/property-and-memberVar-in-iOS-1528011307.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/random-objectiveC-1528013719.html</loc>
+    <lastmod>2019-05-28</lastmod>
   </url>
 </urlset>
