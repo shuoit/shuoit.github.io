@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shuoit.net/tech-notes/reduce-array-to-object-1559047234.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/mobile-web-develop-notes-1559047955.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/the-update-for-jsimple-in-early2019-1547728233.html</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
     <loc>https://shuoit.net/tech-notes/pure-coding-layout-iOS-1528015316.html</loc>
     <lastmod>2019-05-28</lastmod>
   </url>  <url>
@@ -143,9 +152,6 @@
     <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/flux-study-1528023412.html</loc>
-    <lastmod>2019-05-28</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/the-update-for-jsimple-in-early2019-1547728233.html</loc>
     <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/create-rn-in-better-way-1528026020.html</loc>
