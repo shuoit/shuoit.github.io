@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://shuoit.net/tech-notes/Preact-learning-notes1-1548753818.html</loc>
+    <loc>https://shuoit.net/tech-notes/react16-usage-1528027632.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/react16-usage-1528027632.html</loc>
+    <loc>https://shuoit.net/tech-notes/Preact-learning-notes1-1548753818.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/others/jsimple-usage-1492480198.html</loc>
@@ -55,9 +55,6 @@
     <loc>https://shuoit.net/others/mac-tools-1483804283.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/others/WizNote-Uninstall-1528030114.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech-notes/Allow--declaration-with--allowJs-1546511333.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
@@ -70,10 +67,10 @@
     <loc>https://shuoit.net/tech-notes/mixed-coding-between-js-and-ts-1532415903.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/ts-study-part1-1528259629.html</loc>
+    <loc>https://shuoit.net/tech-notes/typedoc-notes-1544152560.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/typedoc-notes-1544152560.html</loc>
+    <loc>https://shuoit.net/tech-notes/ts-study-part1-1528259629.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/AES_CBC-iOS-1528016470.html</loc>
@@ -82,10 +79,10 @@
     <loc>https://shuoit.net/tech-notes/flux-study-1528023412.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/mobx-study-1528023982.html</loc>
+    <loc>https://shuoit.net/tech-notes/mobx-core-study-1528024413.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/mobx-core-study-1528024413.html</loc>
+    <loc>https://shuoit.net/tech-notes/mobx-study-1528023982.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/redux-study-1528023659.html</loc>
@@ -97,16 +94,16 @@
     <loc>https://shuoit.net/tech-notes/mobx-vs-redux-1528024961.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/others/nodeppt-1504692052.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech-notes/javascript-module-notes-1544172600.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/iife-notes-1546923599.html</loc>
+    <loc>https://shuoit.net/others/nodeppt-1504692052.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/reduce-array-to-object-1559221858.html</loc>
+    <lastmod>2019-06-29</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/iife-notes-1546923599.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/flutter-and-rax-hello-1531130418.html</loc>
@@ -124,19 +121,16 @@
     <loc>https://shuoit.net/tech-notes/exclusiveTouch-iOS-1528013386.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/dealloc-not-work-1528019847.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/tech-notes/iOS-Pointer-1528013230.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech-notes/property-in-action-iOS-1528014051.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/pure-coding-layout-iOS-1528015316.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech-notes/random-objectiveC-1528013719.html</loc>
+    <loc>https://shuoit.net/tech-notes/iOS-Pointer-1528013230.html</loc>
+    <lastmod>2019-06-29</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/dealloc-not-work-1528019847.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/data-pass-in-iOS-1528013544.html</loc>
@@ -146,6 +140,9 @@
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/instancetype-iOS-1528012736.html</loc>
+    <lastmod>2019-06-29</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech-notes/random-objectiveC-1528013719.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/performSelector-warning-fix-1528016144.html</loc>
@@ -163,9 +160,6 @@
     <loc>https://shuoit.net/tech-notes/interfaceOrientation-iOS-1528015689.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/humanities/the-optimization-about-tags-1552116737.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech-notes/git-revert-1528020667.html</loc>
     <lastmod>2019-05-28</lastmod>
   </url>  <url>
@@ -173,12 +167,6 @@
     <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/what-is-the-npx-1544153760.html</loc>
-    <lastmod>2019-05-28</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/humanities/Leave-Beijing-to-Nanjing-1546271894.html</loc>
-    <lastmod>2019-05-28</lastmod>
-  </url>  <url>
-    <loc>https://shuoit.net/humanities/always-refueling-but-never-awards-1547199536.html</loc>
     <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech-notes/cross-platform-desktop-1528555686.html</loc>
