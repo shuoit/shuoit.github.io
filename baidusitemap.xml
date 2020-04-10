@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shuoit.net/tech/prepare-to-dev-desktop-1586486527.html</loc>
+    <lastmod>2020-04-10</lastmod>
+  </url>  <url>
     <loc>https://shuoit.net/tech/use-gulp-to-speed-hexo-1547999542.html</loc>
     <lastmod>2020-04-10</lastmod>
   </url>  <url>
@@ -28,19 +31,16 @@
     <loc>https://shuoit.net/tech/config-about-mweb-writing-1586486967.html</loc>
     <lastmod>2020-04-10</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/-1586486527.html</loc>
-    <lastmod>2020-04-10</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech/mac-tools-1483804283.html</loc>
     <lastmod>2020-04-06</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/nodeppt-1504692052.html</loc>
     <lastmod>2020-04-06</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/Preact-learning-notes1-1548753818.html</loc>
+    <loc>https://shuoit.net/tech/react16-usage-1528027632.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/react16-usage-1528027632.html</loc>
+    <loc>https://shuoit.net/tech/Preact-learning-notes1-1548753818.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/hexo-links-1483800845.html</loc>
@@ -64,10 +64,10 @@
     <loc>https://shuoit.net/tech/swift-oc-coding-1528018777.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/swift-in-commandLine-1528016729.html</loc>
+    <loc>https://shuoit.net/tech/swift-oc-coding-1528018780.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/swift-oc-coding-1528018780.html</loc>
+    <loc>https://shuoit.net/tech/swift-in-commandLine-1528016729.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/swift-in-serverside-1492851464.html</loc>
@@ -103,22 +103,22 @@
     <loc>https://shuoit.net/tech/mobx-vs-redux-1528024961.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/javascript-module-notes-1544172600.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech/reduce-array-to-object-1559221858.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/iife-notes-1546923599.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/flutter-and-rax-hello-1531130418.html</loc>
+    <loc>https://shuoit.net/tech/javascript-module-notes-1544172600.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/url-encoding-iOS-1528012896.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/mrc-and-arc-1528012490.html</loc>
+    <lastmod>2019-06-29</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech/flutter-and-rax-hello-1531130418.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/NSScanner-1528013009.html</loc>
@@ -136,19 +136,19 @@
     <loc>https://shuoit.net/tech/property-in-action-iOS-1528014051.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech/random-objectiveC-1528013719.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/data-pass-in-iOS-1528013544.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
+    <loc>https://shuoit.net/tech/ipa-command-packaging-1528014752.html</loc>
+    <lastmod>2019-06-29</lastmod>
+  </url>  <url>
     <loc>https://shuoit.net/tech/instancetype-iOS-1528012736.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/ipa-command-packaging-1528014752.html</loc>
+    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/performSelector-warning-fix-1528016144.html</loc>
