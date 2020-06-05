@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuoit.net/tech/reinstall-mysql-1591346229.html</loc>
+    
+    <lastmod>2020-06-05T09:03:40.896Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shuoit.net/tech/practice-in-microfrontends-1589337341.html</loc>
     
     <lastmod>2020-05-29T07:18:58.608Z</lastmod>
@@ -156,14 +163,14 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/create-rn-in-better-way-1528026020.html</loc>
+    <loc>https://shuoit.net/tech/pm2-rn-combine-1528026635.html</loc>
     
     <lastmod>2019-06-29T14:30:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/pm2-rn-combine-1528026635.html</loc>
+    <loc>https://shuoit.net/tech/create-rn-in-better-way-1528026020.html</loc>
     
     <lastmod>2019-06-29T14:30:09.000Z</lastmod>
     
@@ -268,13 +275,6 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/javascript-module-notes-1544172600.html</loc>
-    
-    <lastmod>2019-06-29T14:27:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://shuoit.net/tech/reduce-array-to-object-1559221858.html</loc>
     
     <lastmod>2019-06-29T14:27:34.000Z</lastmod>
@@ -289,7 +289,14 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/flutter-and-rax-hello-1531130418.html</loc>
+    <loc>https://shuoit.net/tech/javascript-module-notes-1544172600.html</loc>
+    
+    <lastmod>2019-06-29T14:27:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shuoit.net/tech/url-encoding-iOS-1528012896.html</loc>
     
     <lastmod>2019-06-29T14:26:29.000Z</lastmod>
     
@@ -303,7 +310,7 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/url-encoding-iOS-1528012896.html</loc>
+    <loc>https://shuoit.net/tech/flutter-and-rax-hello-1531130418.html</loc>
     
     <lastmod>2019-06-29T14:26:29.000Z</lastmod>
     
@@ -352,7 +359,7 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
+    <loc>https://shuoit.net/tech/data-pass-in-iOS-1528013544.html</loc>
     
     <lastmod>2019-06-29T14:26:29.000Z</lastmod>
     
@@ -373,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/data-pass-in-iOS-1528013544.html</loc>
+    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
     
     <lastmod>2019-06-29T14:26:29.000Z</lastmod>
     
@@ -450,14 +457,14 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/timeline/index.html</loc>
+    <loc>https://shuoit.net/tags/index.html</loc>
     
     <lastmod>2019-05-28T12:28:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shuoit.net/tags/index.html</loc>
+    <loc>https://shuoit.net/timeline/index.html</loc>
     
     <lastmod>2019-05-28T12:28:42.000Z</lastmod>
     
