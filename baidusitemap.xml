@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shuoit.net/tech/about-git-1597996754.html</loc>
+    <lastmod>2020-08-21</lastmod>
+  </url>  <url>
     <loc>https://shuoit.net/tech/niz-keybord-1595168257.html</loc>
     <lastmod>2020-07-19</lastmod>
   </url>  <url>
@@ -52,10 +55,10 @@
     <loc>https://shuoit.net/tech/nodeppt-1504692052.html</loc>
     <lastmod>2020-04-06</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/Preact-learning-notes1-1548753818.html</loc>
+    <loc>https://shuoit.net/tech/react16-usage-1528027632.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/react16-usage-1528027632.html</loc>
+    <loc>https://shuoit.net/tech/Preact-learning-notes1-1548753818.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/hexo-links-1483800845.html</loc>
@@ -79,10 +82,10 @@
     <loc>https://shuoit.net/tech/swift-oc-coding-1528018777.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/swift-in-commandLine-1528016729.html</loc>
+    <loc>https://shuoit.net/tech/swift-oc-coding-1528018780.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/swift-oc-coding-1528018780.html</loc>
+    <loc>https://shuoit.net/tech/swift-in-commandLine-1528016729.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/swift-in-serverside-1492851464.html</loc>
@@ -118,16 +121,13 @@
     <loc>https://shuoit.net/tech/mobx-vs-redux-1528024961.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/javascript-module-notes-1544172600.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech/reduce-array-to-object-1559221858.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/iife-notes-1546923599.html</loc>
+    <loc>https://shuoit.net/tech/javascript-module-notes-1544172600.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/flutter-and-rax-hello-1531130418.html</loc>
+    <loc>https://shuoit.net/tech/iife-notes-1546923599.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/url-encoding-iOS-1528012896.html</loc>
@@ -139,10 +139,10 @@
     <loc>https://shuoit.net/tech/NSScanner-1528013009.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/exclusiveTouch-iOS-1528013386.html</loc>
+    <loc>https://shuoit.net/tech/flutter-and-rax-hello-1531130418.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/property-in-action-iOS-1528014051.html</loc>
+    <loc>https://shuoit.net/tech/exclusiveTouch-iOS-1528013386.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/dealloc-not-work-1528019847.html</loc>
@@ -151,19 +151,22 @@
     <loc>https://shuoit.net/tech/iOS-Pointer-1528013230.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
+    <loc>https://shuoit.net/tech/property-in-action-iOS-1528014051.html</loc>
+    <lastmod>2019-06-29</lastmod>
+  </url>  <url>
     <loc>https://shuoit.net/tech/random-objectiveC-1528013719.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/data-pass-in-iOS-1528013544.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
-    <loc>https://shuoit.net/tech/instancetype-iOS-1528012736.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>  <url>
     <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/ipa-command-packaging-1528014752.html</loc>
+    <lastmod>2019-06-29</lastmod>
+  </url>  <url>
+    <loc>https://shuoit.net/tech/instancetype-iOS-1528012736.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>  <url>
     <loc>https://shuoit.net/tech/performSelector-warning-fix-1528016144.html</loc>
