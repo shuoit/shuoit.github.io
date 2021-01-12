@@ -149,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/react16-usage-1528027632.html</loc>
+    <loc>https://shuoit.net/tech/Preact-learning-notes1-1548753818.html</loc>
     
     <lastmod>2019-06-29</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/Preact-learning-notes1-1548753818.html</loc>
+    <loc>https://shuoit.net/tech/react16-usage-1528027632.html</loc>
     
     <lastmod>2019-06-29</lastmod>
     
@@ -522,6 +522,20 @@
   </url>
   
   <url>
+    <loc>https://shuoit.net/tags/dev-tips/</loc>
+    <lastmod>2021-01-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuoit.net/tags/productivity/</loc>
+    <lastmod>2021-01-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shuoit.net/tags/flutter/</loc>
     <lastmod>2021-01-12</lastmod>
     <changefreq>daily</changefreq>
@@ -537,20 +551,6 @@
   
   <url>
     <loc>https://shuoit.net/tags/cross-app/</loc>
-    <lastmod>2021-01-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tags/dev-tips/</loc>
-    <lastmod>2021-01-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tags/productivity/</loc>
     <lastmod>2021-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
