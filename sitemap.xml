@@ -205,13 +205,6 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/swift-in-commandLine-1528016729.html</loc>
-    
-    <lastmod>2019-06-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://shuoit.net/tech/swift-oc-coding-1528018777.html</loc>
     
     <lastmod>2019-06-29</lastmod>
@@ -220,6 +213,13 @@
   
   <url>
     <loc>https://shuoit.net/tech/swift-oc-coding-1528018780.html</loc>
+    
+    <lastmod>2019-06-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shuoit.net/tech/swift-in-commandLine-1528016729.html</loc>
     
     <lastmod>2019-06-29</lastmod>
     
@@ -359,6 +359,13 @@
   </url>
   
   <url>
+    <loc>https://shuoit.net/tech/dealloc-not-work-1528019847.html</loc>
+    
+    <lastmod>2019-06-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shuoit.net/tech/iOS-Pointer-1528013230.html</loc>
     
     <lastmod>2019-06-29</lastmod>
@@ -373,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tech/dealloc-not-work-1528019847.html</loc>
+    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
     
     <lastmod>2019-06-29</lastmod>
     
@@ -381,13 +388,6 @@
   
   <url>
     <loc>https://shuoit.net/tech/random-objectiveC-1528013719.html</loc>
-    
-    <lastmod>2019-06-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
     
     <lastmod>2019-06-29</lastmod>
     
@@ -478,14 +478,14 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/help/index.html</loc>
+    <loc>https://shuoit.net/tags/index.html</loc>
     
     <lastmod>2019-05-28</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shuoit.net/tags/index.html</loc>
+    <loc>https://shuoit.net/help/index.html</loc>
     
     <lastmod>2019-05-28</lastmod>
     
@@ -506,6 +506,20 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://shuoit.net/tags/oc/</loc>
+    <lastmod>2021-01-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuoit.net/tags/java/</loc>
+    <lastmod>2021-01-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://shuoit.net/tags/dev-tips/</loc>
@@ -537,20 +551,6 @@
   
   <url>
     <loc>https://shuoit.net/tags/cross-app/</loc>
-    <lastmod>2021-01-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tags/oc/</loc>
-    <lastmod>2021-01-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tags/java/</loc>
     <lastmod>2021-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
