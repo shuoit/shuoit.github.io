@@ -478,14 +478,14 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tags/index.html</loc>
+    <loc>https://shuoit.net/help/index.html</loc>
     
     <lastmod>2019-05-28</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shuoit.net/help/index.html</loc>
+    <loc>https://shuoit.net/tags/index.html</loc>
     
     <lastmod>2019-05-28</lastmod>
     
@@ -529,7 +529,7 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tags/js/</loc>
+    <loc>https://shuoit.net/tags/productivity/</loc>
     <lastmod>2021-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -557,7 +557,7 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tags/productivity/</loc>
+    <loc>https://shuoit.net/tags/js/</loc>
     <lastmod>2021-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -565,20 +565,6 @@
   
   <url>
     <loc>https://shuoit.net/tags/ios/</loc>
-    <lastmod>2021-04-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tags/hexo/</loc>
-    <lastmod>2021-04-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuoit.net/tags/web/</loc>
     <lastmod>2021-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -599,7 +585,14 @@
   </url>
   
   <url>
-    <loc>https://shuoit.net/tags/rn/</loc>
+    <loc>https://shuoit.net/tags/hexo/</loc>
+    <lastmod>2021-04-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuoit.net/tags/web/</loc>
     <lastmod>2021-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -614,6 +607,13 @@
   
   <url>
     <loc>https://shuoit.net/tags/ts/</loc>
+    <lastmod>2021-04-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuoit.net/tags/rn/</loc>
     <lastmod>2021-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
