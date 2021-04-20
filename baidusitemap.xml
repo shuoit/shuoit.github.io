@@ -1,16 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://shuoit.net/tech/codereview-explore-1598433342.html</loc>
-    <lastmod>2020-09-02</lastmod>
-  </url>
-  <url>
-    <loc>https://shuoit.net/tech/about-git-1597996754.html</loc>
-    <lastmod>2020-08-21</lastmod>
+    <loc>https://shuoit.net/huma/WizNote-Uninstall-1528030114.html</loc>
+    <lastmod>2021-04-20</lastmod>
   </url>
   <url>
     <loc>https://shuoit.net/tech/niz-keybord-1595168257.html</loc>
-    <lastmod>2020-07-19</lastmod>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/about-git-1597996754.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/vue-study-notes-1528027974.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/the-optimization-about-tags-1552116737.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/the-update-for-jsimple-in-early2019-1547728233.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/jsimple-usage-1492480198.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/hexo-links-1483800845.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/mobile-web-develop-notes-1559047955.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/use-gulp-to-speed-hexo-1547999542.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/permalink-optimize-hexo-1528003174.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/always-refueling-but-never-awards-1547199536.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/flac-music-1587443504.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/car-first-maintenance-1589009462.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/Leave-Beijing-to-Nanjing-1546271894.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/thinking-about-work-1592207408.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/piano-learning-part1-1617691338.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/huma/reading-or-not-1536481791.html</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://shuoit.net/tech/codereview-explore-1598433342.html</loc>
+    <lastmod>2020-09-02</lastmod>
   </url>
   <url>
     <loc>https://shuoit.net/tech/debug-nodets-in-vscode-1593399677.html</loc>
@@ -33,10 +97,6 @@
     <lastmod>2020-04-10</lastmod>
   </url>
   <url>
-    <loc>https://shuoit.net/tech/use-gulp-to-speed-hexo-1547999542.html</loc>
-    <lastmod>2020-04-10</lastmod>
-  </url>
-  <url>
     <loc>https://shuoit.net/tech/typedoc-notes-1544152560.html</loc>
     <lastmod>2020-04-10</lastmod>
   </url>
@@ -50,18 +110,6 @@
   </url>
   <url>
     <loc>https://shuoit.net/tech/ts-study-part1-1528259629.html</loc>
-    <lastmod>2020-04-10</lastmod>
-  </url>
-  <url>
-    <loc>https://shuoit.net/tech/permalink-optimize-hexo-1528003174.html</loc>
-    <lastmod>2020-04-10</lastmod>
-  </url>
-  <url>
-    <loc>https://shuoit.net/tech/the-update-for-jsimple-in-early2019-1547728233.html</loc>
-    <lastmod>2020-04-10</lastmod>
-  </url>
-  <url>
-    <loc>https://shuoit.net/tech/jsimple-usage-1492480198.html</loc>
     <lastmod>2020-04-10</lastmod>
   </url>
   <url>
@@ -82,18 +130,6 @@
   </url>
   <url>
     <loc>https://shuoit.net/tech/react16-usage-1528027632.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>
-  <url>
-    <loc>https://shuoit.net/tech/hexo-links-1483800845.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>
-  <url>
-    <loc>https://shuoit.net/tech/vue-study-notes-1528027974.html</loc>
-    <lastmod>2019-06-29</lastmod>
-  </url>
-  <url>
-    <loc>https://shuoit.net/tech/mobile-web-develop-notes-1559047955.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>
   <url>
@@ -209,11 +245,11 @@
     <lastmod>2019-06-29</lastmod>
   </url>
   <url>
-    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
+    <loc>https://shuoit.net/tech/random-objectiveC-1528013719.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>
   <url>
-    <loc>https://shuoit.net/tech/random-objectiveC-1528013719.html</loc>
+    <loc>https://shuoit.net/tech/pure-coding-layout-iOS-1528015316.html</loc>
     <lastmod>2019-06-29</lastmod>
   </url>
   <url>
